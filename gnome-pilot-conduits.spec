@@ -1,8 +1,8 @@
 Summary:	Gnome-pilot conduits
 Name:		gnome-pilot-conduits
-Version: 2.0.15
-Release:	%mkrel 1
-License:	LGPL
+Version:	2.0.15
+Release:	%mkrel 2
+License:	GPL+
 Group:		Office
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
 
@@ -14,10 +14,10 @@ BuildRequires:  gnome-pilot-devel >= %version
 
 %description
 gnome-pilot is a collection of programs and daemon for integrating
-GNOME and the Palm Pilot <tm>.
+GNOME and Palm devices.
 
 This is a collection of additional conduits for gnome-pilot, it
-currently features
+currently features:
  - MAL conduit
  - email conduit
  - expense conduit
@@ -46,9 +46,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(-, root, root)
-%doc AUTHORS COPYING ChangeLog NEWS README
+%doc AUTHORS ChangeLog NEWS README
 %{_libdir}/gnome-pilot/conduits/*.so*
 %{_datadir}/gnome-pilot/conduits/*
 %{_datadir}/pixmaps/*
-
 
