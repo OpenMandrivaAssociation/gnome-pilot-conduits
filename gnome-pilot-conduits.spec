@@ -6,7 +6,6 @@ License:	GPL+
 Group:		Office
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
 
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 URL:		http://www.gnome.org/gnome-pilot/
 
 Requires:	gnome-pilot >= %version
