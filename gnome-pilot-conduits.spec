@@ -1,7 +1,7 @@
 Summary:	Gnome-pilot conduits
 Name:		gnome-pilot-conduits
 Version:	2.0.15
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL+
 Group:		Office
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
