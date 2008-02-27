@@ -1,7 +1,8 @@
+%define gnome_pilot 2.0.13
 Summary:	Gnome-pilot conduits
 Name:		gnome-pilot-conduits
-Version:	2.0.15
-Release:	%mkrel 4
+Version:	2.0.16
+Release:	%mkrel 1
 License:	GPL+
 Group:		Office
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
@@ -9,8 +10,8 @@ Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 URL:		http://www.gnome.org/gnome-pilot/
 
-Requires:	gnome-pilot >= %version
-BuildRequires:  gnome-pilot-devel >= %version
+Requires:	gnome-pilot >= %gnome_pilot
+BuildRequires:  gnome-pilot-devel >= %gnome_pilot
 
 %description
 gnome-pilot is a collection of programs and daemon for integrating
