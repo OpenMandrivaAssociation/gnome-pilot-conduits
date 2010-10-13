@@ -1,8 +1,8 @@
-%define gnome_pilot 2.0.13
+%define gnome_pilot 2.32.0
 Summary:	Gnome-pilot conduits
 Name:		gnome-pilot-conduits
-Version:	2.0.17
-Release:	%mkrel 2
+Version:	2.32.0
+Release:	%mkrel 1
 License:	GPL+
 Group:		Office
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
@@ -50,5 +50,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS README
 %{_libdir}/gnome-pilot/conduits/*.so*
 %{_datadir}/gnome-pilot/conduits/*
-%{_datadir}/pixmaps/*
 
