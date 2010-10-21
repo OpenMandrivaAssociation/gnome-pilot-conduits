@@ -12,6 +12,7 @@ URL:		http://www.gnome.org/gnome-pilot/
 
 Requires:	gnome-pilot >= %gnome_pilot
 BuildRequires:  gnome-pilot-devel >= %gnome_pilot
+BuildRequires:  intltool
 
 %description
 gnome-pilot is a collection of programs and daemon for integrating
