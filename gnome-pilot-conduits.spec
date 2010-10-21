@@ -1,7 +1,7 @@
 %define gnome_pilot 2.32.0
 Summary:	Gnome-pilot conduits
 Name:		gnome-pilot-conduits
-Version:	2.32.0
+Version:	2.32.1
 Release:	%mkrel 1
 License:	GPL+
 Group:		Office
