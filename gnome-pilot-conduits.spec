@@ -35,16 +35,16 @@ currently features:
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std
 
 %find_lang %{name}
 
 # remove unpackaged files 
-rm -f $RPM_BUILD_ROOT%{_libdir}/gnome-pilot/conduits/*.{la,a}
+rm -f %{buildroot}%{_libdir}/gnome-pilot/conduits/*.{la,a}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files -f %{name}.lang
 %defattr(-, root, root)
