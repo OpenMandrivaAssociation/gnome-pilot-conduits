@@ -8,7 +8,7 @@ Group:		Office
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
 
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
-URL:		http://www.gnome.org/gnome-pilot/
+URL:		https://www.gnome.org/gnome-pilot/
 
 Requires:	gnome-pilot >= %gnome_pilot
 BuildRequires:  pkgconfig(gnome-pilot-3.0) >= %gnome_pilot
