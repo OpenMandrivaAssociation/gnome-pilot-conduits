@@ -11,6 +11,11 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 URL:		https://www.gnome.org/gnome-pilot/
 
 Requires:	gnome-pilot >= %gnome_pilot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(gnome-pilot-3.0) >= %gnome_pilot
 BuildRequires:  intltool
 
