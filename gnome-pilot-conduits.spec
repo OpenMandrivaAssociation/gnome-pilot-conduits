@@ -2,7 +2,7 @@
 Summary:	Gnome-pilot conduits
 Name:		gnome-pilot-conduits
 Version:	2.91.93
-Release:	1
+Release:	2
 License:	GPL+
 Group:		Office
 Source0:	ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.bz2
